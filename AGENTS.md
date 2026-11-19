@@ -39,7 +39,7 @@ For any new feature or multi-file change:
 1. **Understand:** Read the code involved and the corresponding spec in `temp/` and `CONTEXT.md`.
 2. **Ask:** If a decision is unclear (scope, visible behavior, data shape), ask through the question panel with the recommended option first.
 3. **Plan:** Copy `prompts/TEMPLATE.md` to `prompts/NN-feature-name.md` (next sequence number) and detail the steps.
-4. **IMPORTANT — Stop and Wait:** Write NO app code until the user approves the plan. Ask for approval in the question panel. On approval, set `Status: approved`.
+4. **Stop and Wait:** Once the plan is drafted, stop calling tools immediately. In normal chat text (do NOT use the question panel/popup), ask whether the user approves the plan or wants any changes so they can review it at their own pace. Write NO application code until the user explicitly approves. On approval, set `Status: approved`.
 5. **Build:** Implement step by step, testing each piece.
 6. **Close Out:**
    - Run verification (`npx tsc --noEmit`, `npx expo lint`).
