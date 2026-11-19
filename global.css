@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-bg: #0D0D0D;
+  --color-card: #1A1A1A;
+  --color-high: #1F1F22;
+  --color-highest: #232326;
+  --color-outline: #2C2C2E;
+  --color-text: #FFFFFF;
+  --color-muted: #9CA3AF;
+  --color-accent: #7C3AED;
+  --color-success: #22C55E;
+  --color-warning: #F59E0B;
+  --color-danger: #EF4444;
+  --color-info: #3B82F6;
+}

@@ -41,3 +41,12 @@ example
 # generated native folders
 /ios
 /android
+
+# IDE & Tooling
+.claude/
+.vscode/
+
+# Local reference & scratchpads
+inspo/
+prompts/
+correct-yt.md
